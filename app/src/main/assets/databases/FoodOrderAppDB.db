@@ -1,0 +1,13 @@
+CREATE TABLE OrderDetail (
+    `ID` INTEGER PRIMARY KEY AUTOINCREMENT,
+    `ProductId` TEXT,
+    `ProductName` TEXT,
+    `Quantity` TEXT,
+    `Price` TEXT,
+    `Discount` INTEGER
+);
+
+CREATE TABLE sqlite_sequence (
+    `name`,
+    `seq`
+);
